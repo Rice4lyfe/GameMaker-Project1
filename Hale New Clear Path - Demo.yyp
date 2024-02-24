@@ -35,6 +35,7 @@
   },
   "resources": [
     {"id":{"name":"spr_rockbg","path":"sprites/spr_rockbg/spr_rockbg.yy",},},
+    {"id":{"name":"obj_enemy5","path":"objects/obj_enemy5/obj_enemy5.yy",},},
     {"id":{"name":"obj_enemy3","path":"objects/obj_enemy3/obj_enemy3.yy",},},
     {"id":{"name":"tileset_underground","path":"tilesets/tileset_underground/tileset_underground.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
@@ -47,6 +48,7 @@
     {"id":{"name":"spr_ground","path":"sprites/spr_ground/spr_ground.yy",},},
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},},
     {"id":{"name":"spr_sky","path":"sprites/spr_sky/spr_sky.yy",},},
+    {"id":{"name":"obj_enemy4","path":"objects/obj_enemy4/obj_enemy4.yy",},},
     {"id":{"name":"spr_rock_small","path":"sprites/spr_rock_small/spr_rock_small.yy",},},
     {"id":{"name":"main","path":"rooms/main/main.yy",},},
   ],
