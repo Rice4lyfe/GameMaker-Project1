@@ -34,6 +34,7 @@
     "IDEVersion": "2023.11.1.129",
   },
   "resources": [
+    {"id":{"name":"obj_boss","path":"objects/obj_boss/obj_boss.yy",},},
     {"id":{"name":"spr_enemy1","path":"sprites/spr_enemy1/spr_enemy1.yy",},},
     {"id":{"name":"spr_rockbg","path":"sprites/spr_rockbg/spr_rockbg.yy",},},
     {"id":{"name":"obj_enemy5","path":"objects/obj_enemy5/obj_enemy5.yy",},},
@@ -42,6 +43,8 @@
     {"id":{"name":"obj_playerBullet1","path":"objects/obj_playerBullet1/obj_playerBullet1.yy",},},
     {"id":{"name":"obj_spawnEnemy1","path":"objects/obj_spawnEnemy1/obj_spawnEnemy1.yy",},},
     {"id":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},},
+    {"id":{"name":"rm_testing","path":"rooms/rm_testing/rm_testing.yy",},},
+    {"id":{"name":"obj_miniBoss","path":"objects/obj_miniBoss/obj_miniBoss.yy",},},
     {"id":{"name":"tileset_underground","path":"tilesets/tileset_underground/tileset_underground.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"obj_enemy2","path":"objects/obj_enemy2/obj_enemy2.yy",},},
@@ -60,6 +63,7 @@
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"main","path":"rooms/main/main.yy",},},
+    {"roomId":{"name":"rm_testing","path":"rooms/rm_testing/rm_testing.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [
