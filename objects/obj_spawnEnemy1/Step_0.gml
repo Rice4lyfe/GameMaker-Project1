@@ -3,6 +3,7 @@
 if (canSpawn = true) {
 	with (obj_enemy1) {
 		//instancecreatelayer
+		//testline
 		scr_spawn();
 	}
 	canSpawn = false
