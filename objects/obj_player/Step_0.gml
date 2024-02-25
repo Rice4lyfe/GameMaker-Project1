@@ -8,7 +8,7 @@ if (states = States.regular) and !(states = States.dead) {
 	if keyboard_check(vk_space) and (canShoot = true) {
 		instance_create_layer(x, y,"Instances", obj_playerBullet1)
 		canShoot = false
-		alarm[0] = 20
+		alarm[0] = 5
 	}
 }
 x = clamp(x, camera_get_view_x(view_camera[0]), room_width);
