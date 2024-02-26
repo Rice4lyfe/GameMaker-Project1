@@ -5,13 +5,13 @@ if (obj_player.states = States.cutscene) {
 	obj_player.x = room_width/2;
 	obj_player.y -= 4;
 }
-if (health <= 0) and (dying = false) {
-	if (lives < 2) {
+if (health <= 0) and (dying = false) { //check if player ran out of health
+	if (lives < 2) { //check if player ran out of lives
 		obj_player.states = States.dead;
-		alarm[2] = 100;
+		alarm[2] = 100; //this alarm restarts the game
 	}
 	obj_player.states = States.dead;
 	dying = true;
-	alarm[1] = 100;
+	alarm[1] = 100; //this alarm resets the player's position, reduces num of lives by 1, and resets health
 }
 

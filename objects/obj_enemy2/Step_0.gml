@@ -1,6 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
-if (obj_game.dying = false) {
-	health -= 1;
-	instance_destroy();
+if (obj_player.states = States.regular) {
+	y += movementSpeed
+
+scr_spawn()
+
+
 }
+

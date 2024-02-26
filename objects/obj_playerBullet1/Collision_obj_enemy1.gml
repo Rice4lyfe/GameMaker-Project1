@@ -1,4 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-instance_destroy(obj_enemy1);
-instance_destroy();
+instance_destroy(other);
+obj_game.numEnemies -= 1;
