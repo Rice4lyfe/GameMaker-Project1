@@ -25,7 +25,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_miniBoss",
+    "path": "sprites/spr_miniBoss/spr_miniBoss.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

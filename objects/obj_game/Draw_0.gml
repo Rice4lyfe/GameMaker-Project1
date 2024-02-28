@@ -13,3 +13,6 @@ draw_text_transformed(camera_get_view_x(view_camera[0]) + 16, camera_get_view_y(
 //for testing the number of enemies in the game
 draw_set_colour(c_purple);
 draw_text_transformed(camera_get_view_x(view_camera[0]) + 32, camera_get_view_y(view_camera[0]) + 220, numEnemies, 2, 2, 0);
+//timer
+draw_set_colour(c_blue);
+draw_text_transformed(camera_get_view_x(view_camera[0]) + 650, camera_get_view_y(view_camera[0]) + 32, timer, 2, 2, 0);
