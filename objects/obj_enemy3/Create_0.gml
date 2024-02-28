@@ -3,3 +3,5 @@
 image_angle -= 90
 canShoot = true;
 obj_game.numEnemies += 1;
+pointingdirection = 0
+

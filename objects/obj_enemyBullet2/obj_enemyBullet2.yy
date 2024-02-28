@@ -1,21 +1,22 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_enemy3",
+  "name": "obj_enemyBullet2",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_enemyBullet1","path":"objects/obj_enemyBullet1/obj_enemyBullet1.yy",},"propertyId":{"name":"bulletSpeed","path":"objects/obj_enemyBullet1/obj_enemyBullet1.yy",},"value":"2",},
+  ],
   "parent": {
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
   "parentObjectId": {
-    "name": "obj_enemy1",
-    "path": "objects/obj_enemy1/obj_enemy1.yy",
+    "name": "obj_enemyBullet1",
+    "path": "objects/obj_enemyBullet1/obj_enemyBullet1.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -30,11 +31,13 @@
   "physicsShape": 1,
   "physicsShapePoints": [],
   "physicsStartAwake": true,
-  "properties": [],
+  "properties": [
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"pointing","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":1,},
+  ],
   "solid": false,
   "spriteId": {
-    "name": "spr_enemy3",
-    "path": "sprites/spr_enemy3/spr_enemy3.yy",
+    "name": "spr_enemyBullet3",
+    "path": "sprites/spr_enemyBullet3/spr_enemyBullet3.yy",
   },
   "spriteMaskId": null,
   "visible": true,
