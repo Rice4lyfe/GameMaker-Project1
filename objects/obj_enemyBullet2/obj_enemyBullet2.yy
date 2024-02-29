@@ -36,8 +36,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "spr_enemyBullet3",
-    "path": "sprites/spr_enemyBullet3/spr_enemyBullet3.yy",
+    "name": "spr_enemyBullet1",
+    "path": "sprites/spr_enemyBullet1/spr_enemyBullet1.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -18,12 +18,31 @@ if (health <= 0) and (dying = false) { //check if player ran out of health
 	dying = true;
 	alarm[1] = 100; //this alarm resets the player's position, reduces num of lives by 1, and resets health
 }
-if (asecond = true) and (obj_player.states = States.regular) {
-asecond = false
-alarm[3] = 60;
+if (asecond = true) and (obj_player.states = States.regular) and (doTimer = true) {
+	asecond = false
+	alarm[3] = 60;
 }
+
+if (timer = 60) {
+	doTimer = false
+	allowMovement= false;
+	instance_destroy(obj_spawnEnemy1)
+	instance_destroy(obj_spawnEnemy2)
+	instance_destroy(obj_spawnEnemy3)
+	instance_destroy(obj_enemyBullet1)
+	instance_destroy(obj_enemyBullet2)
+	instance_destroy(obj_enemy1)
+	instance_destroy(obj_enemy2)
+	instance_destroy(obj_enemy3)
+	obj_player.x = room_width/2;
+	obj_player.y = camera_get_view_y(view_camera[0]) + 700;
+	bossText = true;
+	alarm[4] = 60;
+	
+}
+
 if (timer = 0) {
-asecond = false
-obj_player.states = States.cutscene
-alarm[0] = 800
+	asecond = false
+	obj_player.states = States.cutscene
+	alarm[0] = 800
 }

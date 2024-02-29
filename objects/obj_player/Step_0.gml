@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if (states = States.regular) and !(states = States.dead) {
+if (states = States.regular) and !(states = States.dead) and (obj_game.allowMovement = true) {
 	if keyboard_check(vk_left) x -= movementSpeed;
 	if keyboard_check(vk_right) x += movementSpeed;
 	if keyboard_check(vk_up) y -= movementSpeed;

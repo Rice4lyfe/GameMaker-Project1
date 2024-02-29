@@ -3,5 +3,9 @@
 alarm[0] = 300;
 dying = false;
 numEnemies = 0;
-timer = 3;
+timer = 85;
 asecond = true;
+doTimer = true;
+allowMovement = true;
+bossText = false;
+bossHealthBar = false;
