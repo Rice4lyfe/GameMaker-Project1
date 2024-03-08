@@ -23,11 +23,7 @@ if (asecond == true) and (obj_player.states == States.regular) and (doTimer == t
 	alarm[3] = 60;
 }
 
-<<<<<<< HEAD
-if (timer == 60) {
-=======
 if (timer = 198) {
->>>>>>> df2af5e0ebdc479a63016ccc4d22bd1bb90ca421
 	doTimer = false
 	allowMovement= false;
 	instance_destroy(obj_spawnEnemy1)
@@ -45,14 +41,10 @@ if (timer = 198) {
 	
 }
 
-<<<<<<< HEAD
-if (timer == 0) {
-=======
 if (timer = 196) {
 	if (instance_exists(obj_miniBoss)) {
 		instance_destroy(obj_miniBoss)
 	}
->>>>>>> df2af5e0ebdc479a63016ccc4d22bd1bb90ca421
 	asecond = false
 	obj_player.states = States.cutscene
 	alarm[0] = 800
