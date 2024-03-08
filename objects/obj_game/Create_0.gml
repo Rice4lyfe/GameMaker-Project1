@@ -9,3 +9,4 @@ doTimer = true;
 allowMovement = true;
 bossText = false;
 bossHealthBar = false;
+audio_play_sound(snd_bgmusic_space, 1, true);
