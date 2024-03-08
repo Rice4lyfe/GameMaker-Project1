@@ -61,6 +61,7 @@
     {"id":{"name":"snd_bgmusic_space","path":"sounds/snd_bgmusic_space/snd_bgmusic_space.yy",},},
     {"id":{"name":"obj_miniBossBullet","path":"objects/obj_miniBossBullet/obj_miniBossBullet.yy",},},
     {"id":{"name":"spr_miniBoss","path":"sprites/spr_miniBoss/spr_miniBoss.yy",},},
+    {"id":{"name":"spr_boss","path":"sprites/spr_boss/spr_boss.yy",},},
     {"id":{"name":"spr_rock_big","path":"sprites/spr_rock_big/spr_rock_big.yy",},},
     {"id":{"name":"spr_ground","path":"sprites/spr_ground/spr_ground.yy",},},
     {"id":{"name":"obj_enemyBullet2","path":"objects/obj_enemyBullet2/obj_enemyBullet2.yy",},},
