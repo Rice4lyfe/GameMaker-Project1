@@ -40,6 +40,7 @@
     {"name":"spr_space","order":6,"path":"sprites/spr_space/spr_space.yy",},
     {"name":"obj_miniBossBullet","order":17,"path":"objects/obj_miniBossBullet/obj_miniBossBullet.yy",},
     {"name":"spr_miniBoss","order":13,"path":"sprites/spr_miniBoss/spr_miniBoss.yy",},
+    {"name":"spr_boss","order":14,"path":"sprites/spr_boss/spr_boss.yy",},
     {"name":"spr_rock_big","order":2,"path":"sprites/spr_rock_big/spr_rock_big.yy",},
     {"name":"spr_ground","order":4,"path":"sprites/spr_ground/spr_ground.yy",},
     {"name":"obj_enemyBullet2","order":13,"path":"objects/obj_enemyBullet2/obj_enemyBullet2.yy",},

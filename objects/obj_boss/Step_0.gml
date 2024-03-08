@@ -28,12 +28,20 @@ if (obj_player.states = States.regular) and (obj_game.dying = false) {
 		canShoot = false
 		pointingDirection += 30;
 		alarm[0] = 5
-	
+	}
+	if (slowTime = true) {
+		
+		if (instance_exists(obj_enemy2)) {
+			obj_enemy2.movementSpeed *= 0.5
+		}
+		obj_player.movementSpeed *= 0.5
+		alarm[2] = 300
+		slowTime = false
 	}
 }
 if (bossHealth <= 0) {
 	obj_game.bossHealthBar = false;
 	instance_destroy()
-	obj_game.timer = 150
-	
+	obj_game.timer = 150	
 }
+

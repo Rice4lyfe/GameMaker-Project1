@@ -23,7 +23,11 @@ if (asecond == true) and (obj_player.states == States.regular) and (doTimer == t
 	alarm[3] = 60;
 }
 
+<<<<<<< HEAD
 if (timer == 60) {
+=======
+if (timer = 198) {
+>>>>>>> df2af5e0ebdc479a63016ccc4d22bd1bb90ca421
 	doTimer = false
 	allowMovement= false;
 	instance_destroy(obj_spawnEnemy1)
@@ -41,8 +45,33 @@ if (timer == 60) {
 	
 }
 
+<<<<<<< HEAD
 if (timer == 0) {
+=======
+if (timer = 196) {
+	if (instance_exists(obj_miniBoss)) {
+		instance_destroy(obj_miniBoss)
+	}
+>>>>>>> df2af5e0ebdc479a63016ccc4d22bd1bb90ca421
 	asecond = false
 	obj_player.states = States.cutscene
 	alarm[0] = 800
+	alarm[5] = 800
+	numEnemies = 0
+	
+}
+
+if (timer = 194) {
+	bossText = true;
+	doTimer = false
+	numEnemies = 0;
+	instance_destroy(obj_spawnEnemy1)
+	instance_destroy(obj_spawnEnemy2)
+	instance_destroy(obj_spawnEnemy3)
+	instance_destroy(obj_enemyBullet1)
+	instance_destroy(obj_enemyBullet2)
+	instance_destroy(obj_enemy1)
+	instance_destroy(obj_enemy2)
+	instance_destroy(obj_enemy3)
+	alarm[6] = 60
 }
