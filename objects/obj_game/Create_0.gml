@@ -3,7 +3,7 @@
 alarm[0] = 300;
 dying = false;
 numEnemies = 0;
-timer = 120;
+timer = 200;
 asecond = true;
 doTimer = true;
 allowMovement = true;

@@ -23,7 +23,7 @@ if (asecond = true) and (obj_player.states = States.regular) and (doTimer = true
 	alarm[3] = 60;
 }
 
-if (timer = 60) {
+if (timer = 199) {
 	doTimer = false
 	allowMovement= false;
 	instance_destroy(obj_spawnEnemy1)
@@ -41,7 +41,10 @@ if (timer = 60) {
 	
 }
 
-if (timer = 0) {
+if (timer = 150) {
+	if (instance_exists(obj_miniBoss)) {
+		instance_destroy(obj_miniBoss)
+	}
 	asecond = false
 	obj_player.states = States.cutscene
 	alarm[0] = 800

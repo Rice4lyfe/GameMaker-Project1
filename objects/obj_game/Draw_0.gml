@@ -22,7 +22,7 @@ if (bossText = true) {
     draw_text_transformed(camera_get_view_x(view_camera[0]) + 200, camera_get_view_y(view_camera[0]) + 200, "BOSS INCOMING", 3, 3, 20);
 }
 
-if (bossHealthBar = true) {
+if (bossHealthBar = true) and (instance_exists(obj_miniBoss)) {
 	draw_set_colour(c_red);
     draw_healthbar(obj_miniBoss.x-50, obj_miniBoss.y-50, obj_miniBoss.x+50, obj_miniBoss.y-75, obj_miniBoss.bossHealth, c_black, c_red, c_lime, 0, true, true)
 }
