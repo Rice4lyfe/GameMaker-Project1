@@ -58,6 +58,7 @@
     {"id":{"name":"tileset_ground","path":"tilesets/tileset_ground/tileset_ground.yy",},},
     {"id":{"name":"obj_enemy1","path":"objects/obj_enemy1/obj_enemy1.yy",},},
     {"id":{"name":"spr_space","path":"sprites/spr_space/spr_space.yy",},},
+    {"id":{"name":"snd_bgmusic_space","path":"sounds/snd_bgmusic_space/snd_bgmusic_space.yy",},},
     {"id":{"name":"obj_miniBossBullet","path":"objects/obj_miniBossBullet/obj_miniBossBullet.yy",},},
     {"id":{"name":"spr_miniBoss","path":"sprites/spr_miniBoss/spr_miniBoss.yy",},},
     {"id":{"name":"spr_rock_big","path":"sprites/spr_rock_big/spr_rock_big.yy",},},
