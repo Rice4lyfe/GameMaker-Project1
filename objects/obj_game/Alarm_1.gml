@@ -6,5 +6,3 @@ obj_player.x = room_width/2
 obj_player.y -= 4
 lives -= 1
 dying = false;
-
-

@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Object17",
+  "name": "obj_explosion1",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -25,7 +25,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_explosion1",
+    "path": "sprites/spr_explosion1/spr_explosion1.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

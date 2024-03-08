@@ -7,8 +7,9 @@ canShoot = true;
 enum States {
 	cutscene,
 	regular,
-	dead,
-	}
+	dead
+}
 states = States.cutscene
 health = 15;
 lives = 5;
+dying = false;
