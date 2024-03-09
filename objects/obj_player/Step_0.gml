@@ -10,7 +10,7 @@ if (states == States.regular) and !(states == States.dead) and (obj_game.allowMo
 	if keyboard_check(vk_space) and (canShoot = true) {
 		instance_create_layer(x, y,"Instances", obj_playerBullet1)
 		canShoot = false
-		alarm[0] = 5
+		alarm[0] = shotSpeed
 	}
 }
 else if(states == States.dead){

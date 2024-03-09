@@ -27,14 +27,19 @@ if (obj_player.states = States.regular) and (obj_game.dying = false) {
 		instance_create_layer(x, y,"Instances", obj_miniBossBullet) 
 		canShoot = false
 		pointingDirection += 30;
-		alarm[0] = 5
+		alarm[0] = shotSpeed
 	}
 	if (slowTime = true) {
 		
 		if (instance_exists(obj_enemy2)) {
-			obj_enemy2.movementSpeed *= 0.5
+			obj_enemy2.movementSpeed = 3
 		}
-		obj_player.movementSpeed *= 0.5
+		obj_player.movementSpeed = 3
+		obj_player.shotSpeed = 10
+		movementSpeed = 3
+		shotSpeed = 10
+		obj_miniBossBullet.bulletSpeed = 1
+		obj_playerBullet1.bulletSpeed = 5
 		alarm[2] = 300
 		slowTime = false
 	}
