@@ -36,8 +36,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "spr_miniBoss",
-    "path": "sprites/spr_miniBoss/spr_miniBoss.yy",
+    "name": "spr_boss",
+    "path": "sprites/spr_boss/spr_boss.yy",
   },
   "spriteMaskId": null,
   "visible": true,
