@@ -23,7 +23,7 @@ if (asecond == true) and (obj_player.states == States.regular) and (doTimer == t
 	alarm[3] = 60;
 }
 
-if (timer = 198) {
+if (timer = 150) {
 	doTimer = false
 	allowMovement= false;
 	instance_destroy(obj_spawnEnemy1)
@@ -41,7 +41,7 @@ if (timer = 198) {
 	
 }
 
-if (timer = 196) {
+if (timer = 100) {
 	if (instance_exists(obj_miniBoss)) {
 		instance_destroy(obj_miniBoss)
 	}
@@ -53,7 +53,7 @@ if (timer = 196) {
 	
 }
 
-if (timer = 194) {
+if (timer = 50) {
 	bossText = true;
 	doTimer = false
 	numEnemies = 0;
@@ -66,4 +66,15 @@ if (timer = 194) {
 	instance_destroy(obj_enemy2)
 	instance_destroy(obj_enemy3)
 	alarm[6] = 60
+}
+
+if (timer = 0) and (instance_exists(obj_boss)) {
+	outOfTime = true
+	allowMovement = false
+	obj_boss.movementSpeed = 0
+	if (instance_exists(obj_enemy2)) {
+		instance_destroy(obj_enemy2)
+		instance_destroy(obj_spawnEnemy2)
+	}
+	alarm[7] = 120
 }
