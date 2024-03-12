@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-health = 15;
+health = 8;
 obj_player.states = States.regular;
 obj_player.x = room_width/2
 obj_player.y -= 4

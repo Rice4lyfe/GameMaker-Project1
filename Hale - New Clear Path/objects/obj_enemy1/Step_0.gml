@@ -8,7 +8,7 @@ scr_spawn()
 	if (canShoot = true) {
 		instance_create_layer(x, y,"Instances", obj_enemyBullet1)
 		canShoot = false
-		alarm[0] = 60
+		alarm[0] = 80 // slowed fire rate from 60 to 80
 	}
 }
 
