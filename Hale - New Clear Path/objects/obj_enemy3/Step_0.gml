@@ -8,7 +8,7 @@ scr_spawn()
 	if (canShoot = true) {
 		instance_create_layer(x, y,"Instances", obj_enemyBullet2) 
 		canShoot = false
-		pointingdirection += 30;
+		pointingdirection += 100;
 		alarm[0] = 10
 	
 	}

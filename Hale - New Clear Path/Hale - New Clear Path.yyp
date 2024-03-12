@@ -67,6 +67,7 @@
     {"id":{"name":"spr_ground","path":"sprites/spr_ground/spr_ground.yy",},},
     {"id":{"name":"obj_enemyBullet2","path":"objects/obj_enemyBullet2/obj_enemyBullet2.yy",},},
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},},
+    {"id":{"name":"spr_glowPlayer","path":"sprites/spr_glowPlayer/spr_glowPlayer.yy",},},
     {"id":{"name":"spr_enemyBullet1","path":"sprites/spr_enemyBullet1/spr_enemyBullet1.yy",},},
     {"id":{"name":"scr_spawn","path":"scripts/scr_spawn/scr_spawn.yy",},},
     {"id":{"name":"obj_explosion1","path":"objects/obj_explosion1/obj_explosion1.yy",},},
