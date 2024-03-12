@@ -12,3 +12,5 @@ bossHealthBar = false;
 audio_play_sound(snd_bgmusic_space, 1, true);
 bossDead = false
 outOfTime = false
+pause = false
+score = 0;

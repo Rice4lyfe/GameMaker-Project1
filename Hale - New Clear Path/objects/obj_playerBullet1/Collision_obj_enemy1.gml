@@ -1,5 +1,0 @@
- /// @description Insert description here
-// You can write your code in this editor
-instance_destroy(other);
-obj_game.numEnemies -= 1;
-score += other.enemy_score;
