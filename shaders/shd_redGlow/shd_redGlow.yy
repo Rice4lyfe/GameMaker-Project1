@@ -1,7 +1,7 @@
 {
   "resourceType": "GMShader",
   "resourceVersion": "1.0",
-  "name": "shd_flashRed",
+  "name": "shd_redGlow",
   "parent": {
     "name": "Shaders",
     "path": "folders/Shaders.yy",

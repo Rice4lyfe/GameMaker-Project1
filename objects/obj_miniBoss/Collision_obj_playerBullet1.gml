@@ -3,6 +3,6 @@
 instance_destroy(other)
 audio_play_sound(snd_hit, 1, false)
 bossHealth -= 1
-shader_set(shd_flashRed);
+shader_set(shd_redGlow);
 shader_is_set = true;
-alarm[2] = 30;
+alarm[4] = 30;
