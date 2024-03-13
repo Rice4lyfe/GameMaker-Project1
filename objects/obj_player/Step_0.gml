@@ -22,6 +22,12 @@ x = clamp(x, camera_get_view_x(view_camera[0]), room_width);
 y = clamp(y, camera_get_view_y(view_camera[0]), camera_get_view_y(view_camera[0])+768);
 
 //dev
-if (keyboard_check_pressed(vk_backspace)) {
+if (keyboard_check_pressed(vk_backspace)) {//testing player death
 	health -= 1;
+}
+if (keyboard_check_pressed(vk_enter) and instance_exists(obj_boss)) {
+	obj_boss.bossHealth -= 50 //testing killing the boss
+}
+if (keyboard_check_pressed(vk_alt)) {
+	obj_game.timer -= 1//use this to progress through the stages faster
 }

@@ -36,10 +36,12 @@ if (obj_player.states = States.regular) and (obj_game.dying = false) {
 		}
 		obj_player.movementSpeed = 3
 		obj_player.shotSpeed = 10
-		movementSpeed = 3
-		shotSpeed = 10
+		// movementSpeed = 3 removed 
+		shotSpeed = 20 // changed from 10 to 20
+		if (instance_exists(obj_playerBullet1)) {
+			obj_playerBullet1.bulletSpeed = 5
+		} // hotfix
 		obj_miniBossBullet.bulletSpeed = 1
-		obj_playerBullet1.bulletSpeed = 5
 		alarm[2] = 300
 		slowTime = false
 	}
@@ -47,6 +49,6 @@ if (obj_player.states = States.regular) and (obj_game.dying = false) {
 if (bossHealth <= 0) {
 	obj_game.bossHealthBar = false;
 	instance_destroy()
-	obj_game.timer = 150	
+	//obj_game.timer = 150	
 }
 

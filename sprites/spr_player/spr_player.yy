@@ -70,7 +70,7 @@
     "eventStubScript": null,
     "eventToFunction": {},
     "length": 4.0,
-    "lockOrigin": false,
+    "lockOrigin": true,
     "moments": {"resourceType":"KeyframeStore<MomentsEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "playback": 1,
     "playbackSpeed": 30.0,
