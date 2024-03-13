@@ -84,7 +84,6 @@
     {"id":{"name":"spr_boss","path":"sprites/spr_boss/spr_boss.yy",},},
     {"id":{"name":"rm_story","path":"rooms/rm_story/rm_story.yy",},},
     {"id":{"name":"spr_rock_big","path":"sprites/spr_rock_big/spr_rock_big.yy",},},
-    {"id":{"name":"obj_PUmoreBullets","path":"objects/obj_PUmoreBullets/obj_PUmoreBullets.yy",},},
     {"id":{"name":"spr_ground","path":"sprites/spr_ground/spr_ground.yy",},},
     {"id":{"name":"obj_enemyBullet2","path":"objects/obj_enemyBullet2/obj_enemyBullet2.yy",},},
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},},

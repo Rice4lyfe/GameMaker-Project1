@@ -1,0 +1,24 @@
+# Credits
+
+Team A
+
+Programmer: Kabir Narayan
+Producer: Walter Nguyen
+Designer: David Taylor
+Artist: Josh Diggs
+
+# Licenses 
+
+## Art: 
+
+Most art by Josh Diggs
+
+Glow Circle (spr_glowPlayer) by oglsdl licensed CC0: https://opengameart.org/content/glow-circle
+Blan Button (spr_button) by krial licensed CC0: https://opengameart.org/content/blank-button
+
+spr_sky by
+spr_space by
+spr_ground by
+
+## Music and sound effects:
+

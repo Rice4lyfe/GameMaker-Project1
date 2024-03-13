@@ -59,7 +59,6 @@
     {"name":"spr_boss","order":14,"path":"sprites/spr_boss/spr_boss.yy",},
     {"name":"rm_story","order":5,"path":"rooms/rm_story/rm_story.yy",},
     {"name":"spr_rock_big","order":2,"path":"sprites/spr_rock_big/spr_rock_big.yy",},
-    {"name":"obj_PUmoreBullets","order":20,"path":"objects/obj_PUmoreBullets/obj_PUmoreBullets.yy",},
     {"name":"spr_ground","order":4,"path":"sprites/spr_ground/spr_ground.yy",},
     {"name":"obj_enemyBullet2","order":13,"path":"objects/obj_enemyBullet2/obj_enemyBullet2.yy",},
     {"name":"spr_glowPlayer","order":16,"path":"sprites/spr_glowPlayer/spr_glowPlayer.yy",},
