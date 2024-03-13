@@ -1,13 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_buttonPlay",
+  "name": "obj_buttonMenu",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_buttonParent","path":"objects/obj_buttonParent/obj_buttonParent.yy",},"propertyId":{"name":"button_text","path":"objects/obj_buttonParent/obj_buttonParent.yy",},"value":"Play",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_buttonParent","path":"objects/obj_buttonParent/obj_buttonParent.yy",},"propertyId":{"name":"button_text","path":"objects/obj_buttonParent/obj_buttonParent.yy",},"value":"Menu",},
   ],
   "parent": {
     "name": "obj_buttons",
