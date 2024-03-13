@@ -27,7 +27,7 @@ if (obj_player.states = States.regular) and (obj_game.dying = false) {
 		instance_create_layer(x, y,"Instances", obj_miniBossBullet) 
 		canShoot = false
 		pointingDirection += 30;
-		alarm[0] = 5
+		alarm[0] = 4
 	
 	}
 }

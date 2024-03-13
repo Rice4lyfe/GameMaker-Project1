@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-if (obj_player.states = States.regular) and (obj_game.dying = false) {
-	
+if (obj_player.states = States.regular) and (obj_game.dying = false) 
+{	
 	speed = movementSpeed
 	if (y < camera_get_view_y(view_camera[0])) {
 		direction = irandom_range(180, 360);
@@ -29,13 +29,16 @@ if (obj_player.states = States.regular) and (obj_game.dying = false) {
 		pointingDirection += 30;
 		alarm[0] = shotSpeed
 	}
-	if (slowTime = true) {
-		
+	
+	if (slowTime = true) 
+	{
+		audio_play_sound(snd_slowtime,0,false);
 		if (instance_exists(obj_enemy2)) {
 			obj_enemy2.movementSpeed = 3
 		}
-		obj_player.movementSpeed = 3
-		obj_player.shotSpeed = 10
+		obj_player.movementSpeed = 4
+		obj_player.shotSpeed = 20
+		shotSpeed = 3
 		// movementSpeed = 3 removed 
 		shotSpeed = 20 // changed from 10 to 20
 		if (instance_exists(obj_playerBullet1)) {

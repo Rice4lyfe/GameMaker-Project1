@@ -17,11 +17,15 @@ Glow Circle (spr_glowPlayer) by oglsdl licensed by CC0: https://opengameart.org/
 Blank Button (spr_button) by krial licensed CC0: https://opengameart.org/content/blank-button
 
 Sky (spr_sky) by Bart licensed CC-BY 3.0, CC-BY-SA 3.0, GPL 3.0, and GPL 2.0: https://opengameart.org/content/sky-backdrop
-Space Background (spr_space) by Cuzco Licensed CC0: https://opengameart.org/content/space-background
+Space Background (spr_space) by Cuzco licensed CC0: https://opengameart.org/content/space-background
 Pixelart ground(grass) (tileset_ground and spr_rockbg) by MraveniskoDev licensed CC0: https://opengameart.org/content/pixelart-groundgrass-tiles-2d-32x32
-Underground by Blackwolfdave(tileset_underground and spr_ground) by Blackwolfdave
+Underground by Blackwolfdave(tileset_underground and spr_ground) by Blackwolfdave licensed by CC0: https://opengameart.org/content/rocky-background
+Explosion by Gumichan01 licensed by CC-BY-SA 4.0: https://opengameart.org/content/explosion-2
 
 ## Music and sound effects:
 
+Through space (snd_bgmusic_space) by maxstack licensed CC-BY-SA 3.0: https://opengameart.org/content/through-space
+Menu Selection Click (snd_menu_click) by NenadSimic licensed CC-BY-SA 3.0: https://opengameart.org/content/menu-selection-click
+Picked coin Echo (snd_slowtime) by NenadSimic liesend CC-BY 3.0: https://opengameart.org/content/picked-coin-echo
 
 

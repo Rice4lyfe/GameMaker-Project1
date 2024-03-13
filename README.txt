@@ -26,9 +26,9 @@ There are a variety of enemies to deal with that the player must shoot to score
 
 Upon reaching a certain point, the player will encounter a mini-boss and a boss that they are tasked to defeat
 
-- The mini-boss does not have to be killed but will grant 50000 points for doing so. It is similar to the red enemy but it moves towards the player
-- The boss is similar to the mini-boss and will grant you 200000 ponts upon kill. However, it is granted the ability to slow down time and will pump up the amount of bullets being shot.
-	- Notably, it also sends yellow enemies as peons.
+- The mini-boss does not have to be killed but will grant 50000 points for doing so. Hitting the boss will grant you 250 points. It is similar to the red enemy but it moves towards the player upon hitting the border. 
+- The boss is similar to the mini-boss and will grant you 200000 ponts upon kill and hitting grants you 500 points. However, it is granted the ability to slow down time and will pump up the amount of bullets being shot.
+	- Notably, it also sends yellow enemies as peons. 
 
 To win the game, the player must either survive long enough to the final boss or kill the final boss.
 
