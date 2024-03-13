@@ -11,7 +11,7 @@
   ],
   "managed": true,
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_miniBoss","path":"objects/obj_miniBoss/obj_miniBoss.yy",},"propertyId":{"name":"movementSpeed","path":"objects/obj_miniBoss/obj_miniBoss.yy",},"value":"3",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_miniBoss","path":"objects/obj_miniBoss/obj_miniBoss.yy",},"propertyId":{"name":"movementSpeed","path":"objects/obj_miniBoss/obj_miniBoss.yy",},"value":"5",},
   ],
   "parent": {
     "name": "Objects",

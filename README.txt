@@ -36,3 +36,9 @@ For the player to lose, the must lose all 3 lives given.
 
 A score will be represented showing the player's performance.
 
+## Cheat codes
+
+- Press Backspace to decrease own health
+- Press enter to kill a boss
+- Press alt to decremeant the timer by 1
+
