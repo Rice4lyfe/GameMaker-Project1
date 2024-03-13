@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if (states == States.regular) and !(states == States.dead) and (obj_game.allowMovement == true) {
+if (states == States.regular) and (states != States.dead) and (obj_game.allowMovement == true) {
 	visible = true;
 	instance_destroy(obj_explosion1)
 	if keyboard_check(vk_left) x -= movementSpeed;

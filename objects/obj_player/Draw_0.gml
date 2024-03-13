@@ -4,3 +4,10 @@ if(obj_game.timer <= 100)
 {
 	draw_sprite_ext(spr_glowPlayer,0,x,y,0.06,0.06,0,-1,1); // Taken from opengameart.org: Glow Circle by oglsdl Public Domain License
 }
+if (shader_is_set) {
+    shader_set(shd_redGlow);
+    draw_self();
+    shader_reset();
+} else {
+    draw_self();
+}

@@ -13,4 +13,5 @@ states = States.cutscene
 health = 8; // nerfed from 15 to 8
 lives = 3; // nerfed from 5 to 3
 dying = false;
+shader_is_set = false
 

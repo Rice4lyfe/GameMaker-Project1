@@ -12,7 +12,8 @@ if (health <= 0) and (dying == false) { //check if player ran out of health
 	instance_destroy(obj_enemyBullet2)
 	if (lives < 2) { //check if player ran out of lives
 		obj_player.states = States.dead;
-		alarm[2] = 45; //this alarm restarts the game
+		gameOver = true;
+		alarm[2] = 120; //this alarm restarts the game
 	}
 	dying = true;
 	obj_player.states = States.dead;
