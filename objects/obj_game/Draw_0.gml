@@ -39,5 +39,5 @@ if (bossDead = true) {
 }
 if (outOfTime = true) {
 	draw_set_colour(c_red);
-    draw_text_transformed(camera_get_view_x(view_camera[0]) + 200, camera_get_view_y(view_camera[0]) + 300, "OUT OF TIME", 5, 5, 0)
+    draw_text_transformed(camera_get_view_x(view_camera[0]) + 100, camera_get_view_y(view_camera[0]) + 300, "OUT OF TIME", 5, 5, 0)
 }
