@@ -2,12 +2,12 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_buttonTutorial",
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_buttonParent","path":"objects/obj_buttonParent/obj_buttonParent.yy",},"propertyId":{"name":"button_text","path":"objects/obj_buttonParent/obj_buttonParent.yy",},"value":"Tutorial",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_buttonParent","path":"objects/obj_buttonParent/obj_buttonParent.yy",},"propertyId":{"name":"x_cord","path":"objects/obj_buttonParent/obj_buttonParent.yy",},"value":"670",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_buttonParent","path":"objects/obj_buttonParent/obj_buttonParent.yy",},"propertyId":{"name":"y_cord","path":"objects/obj_buttonParent/obj_buttonParent.yy",},"value":"506",},
   ],
   "parent": {
     "name": "obj_buttons",

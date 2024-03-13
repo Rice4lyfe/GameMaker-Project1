@@ -1,9 +1,7 @@
-/// @description Insert description here
-// You can write your code in this editor
-
-
+/// @description Play the game
 
 // Inherit the parent event
 event_inherited();
 
-room_goto_next();
+room_goto(main);
+
