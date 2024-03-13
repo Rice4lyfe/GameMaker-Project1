@@ -4,16 +4,33 @@
 	draw_set_colour(c_red);
 	draw_text_transformed(camera_get_view_x(view_camera[0]) + 32, camera_get_view_y(view_camera[0]) + 32, health, 3, 3, 0);
 	draw_set_colour(c_black);
-	draw_text_transformed(camera_get_view_x(view_camera[0]) + 32, camera_get_view_y(view_camera[0]) + 2, "HEALTH: ", 2, 2, 0);
+	if (timer < 100)
+	{
+		draw_set_color(c_white);
+		draw_text_transformed(camera_get_view_x(view_camera[0]) + 32, camera_get_view_y(view_camera[0]) + 2, "HEALTH: ", 2, 2, 0);
+	}
+	else
+	{
+		draw_set_color(c_black);
+		draw_text_transformed(camera_get_view_x(view_camera[0]) + 32, camera_get_view_y(view_camera[0]) + 2, "HEALTH: ", 2, 2, 0);
+	}
 // Lives
 	draw_set_colour(c_red);
 	draw_text_transformed(camera_get_view_x(view_camera[0]) + 32, camera_get_view_y(view_camera[0]) + 128, lives, 3, 3, 0);
 	draw_set_colour(c_black);
+	if (timer < 100)
+	{
+		draw_set_color(c_white);
+	}
 	draw_text_transformed(camera_get_view_x(view_camera[0]) + 32, camera_get_view_y(view_camera[0]) + 96, "LIVES: ", 2, 2, 0);
 // Score
 	draw_set_colour(c_red);
 	draw_text_transformed(camera_get_view_x(view_camera[0]) + 32, camera_get_view_y(view_camera[0]) + 216, score, 3, 3, 0);
 	draw_set_colour(c_black);
+	if (timer < 100)
+	{
+		draw_set_color(c_white);
+	}
 	draw_text_transformed(camera_get_view_x(view_camera[0]) + 32, camera_get_view_y(view_camera[0]) + 182, "SCORE: ", 2, 2, 0);
 //draw_set_colour(c_purple);
 //draw_text_transformed(camera_get_view_x(view_camera[0]) + 16, camera_get_view_y(view_camera[0]) + 186, "(just for testing) NUMENEMIES: ", 1, 1, 0);
@@ -21,7 +38,7 @@
 //draw_set_colour(c_purple);
 //draw_text_transformed(camera_get_view_x(view_camera[0]) + 32, camera_get_view_y(view_camera[0]) + 220, numEnemies, 2, 2, 0);
 //timer
-draw_set_colour(c_blue);
+draw_set_colour(c_lime);
 draw_text_transformed(camera_get_view_x(view_camera[0]) + 650, camera_get_view_y(view_camera[0]) + 32, timer, 2, 2, 0);
 
 if (bossText = true) {

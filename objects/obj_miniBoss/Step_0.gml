@@ -33,6 +33,7 @@ if (obj_player.states = States.regular) and (obj_game.dying = false) {
 }
 if (bossHealth <= 0) {
 	obj_game.bossHealthBar = false;
+	score += 50000;
 	instance_destroy()
 	obj_game.timer = 101
 	
