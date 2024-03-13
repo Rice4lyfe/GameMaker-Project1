@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 120.842445,
+  "duration": 233.73915,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "snd_bgmusic_space.mp3",
+  "soundFile": "snd_bgmusic_space.ogg",
   "type": 0,
-  "volume": 0.5,
+  "volume": 1.0,
 }
