@@ -58,6 +58,7 @@
     {"id":{"name":"spr_enemy2","path":"sprites/spr_enemy2/spr_enemy2.yy",},},
     {"id":{"name":"obj_PUhealth","path":"objects/obj_PUhealth/obj_PUhealth.yy",},},
     {"id":{"name":"snd_explosion1","path":"sounds/snd_explosion1/snd_explosion1.yy",},},
+    {"id":{"name":"snd_hit","path":"sounds/snd_hit/snd_hit.yy",},},
     {"id":{"name":"obj_miniBoss","path":"objects/obj_miniBoss/obj_miniBoss.yy",},},
     {"id":{"name":"fnt_menu","path":"fonts/fnt_menu/fnt_menu.yy",},},
     {"id":{"name":"obj_buttonMenu","path":"objects/obj_buttonMenu/obj_buttonMenu.yy",},},

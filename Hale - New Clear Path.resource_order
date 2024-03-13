@@ -39,6 +39,7 @@
     {"name":"spr_enemy2","order":9,"path":"sprites/spr_enemy2/spr_enemy2.yy",},
     {"name":"obj_PUhealth","order":19,"path":"objects/obj_PUhealth/obj_PUhealth.yy",},
     {"name":"snd_explosion1","order":1,"path":"sounds/snd_explosion1/snd_explosion1.yy",},
+    {"name":"snd_hit","order":3,"path":"sounds/snd_hit/snd_hit.yy",},
     {"name":"obj_miniBoss","order":10,"path":"objects/obj_miniBoss/obj_miniBoss.yy",},
     {"name":"obj_buttonMenu","order":6,"path":"objects/obj_buttonMenu/obj_buttonMenu.yy",},
     {"name":"obj_buttonStory","order":3,"path":"objects/obj_buttonStory/obj_buttonStory.yy",},
