@@ -98,6 +98,7 @@
     {"id":{"name":"scr_spawn","path":"scripts/scr_spawn/scr_spawn.yy",},},
     {"id":{"name":"obj_explosion1","path":"objects/obj_explosion1/obj_explosion1.yy",},},
     {"id":{"name":"spr_sky","path":"sprites/spr_sky/spr_sky.yy",},},
+    {"id":{"name":"snd_bullet","path":"sounds/snd_bullet/snd_bullet.yy",},},
     {"id":{"name":"obj_enemy4","path":"objects/obj_enemy4/obj_enemy4.yy",},},
     {"id":{"name":"obj_tutorial","path":"objects/obj_tutorial/obj_tutorial.yy",},},
     {"id":{"name":"spr_rock_small","path":"sprites/spr_rock_small/spr_rock_small.yy",},},

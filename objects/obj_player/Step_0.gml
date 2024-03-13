@@ -9,6 +9,7 @@ if (states == States.regular) and !(states == States.dead) and (obj_game.allowMo
 	if keyboard_check(vk_down) y += movementSpeed;
 	if keyboard_check(vk_space) and (canShoot = true) {
 		instance_create_layer(x, y,"Instances", obj_playerBullet1)
+		audio_play_sound(snd_bullet,1,false);
 		canShoot = false
 		alarm[0] = shotSpeed
 	}

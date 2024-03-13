@@ -69,6 +69,7 @@
     {"name":"spr_enemyBullet1","order":10,"path":"sprites/spr_enemyBullet1/spr_enemyBullet1.yy",},
     {"name":"obj_explosion1","order":18,"path":"objects/obj_explosion1/obj_explosion1.yy",},
     {"name":"spr_sky","order":7,"path":"sprites/spr_sky/spr_sky.yy",},
+    {"name":"snd_bullet","order":2,"path":"sounds/snd_bullet/snd_bullet.yy",},
     {"name":"obj_enemy4","order":3,"path":"objects/obj_enemy4/obj_enemy4.yy",},
     {"name":"obj_tutorial","order":1,"path":"objects/obj_tutorial/obj_tutorial.yy",},
     {"name":"spr_rock_small","order":3,"path":"sprites/spr_rock_small/spr_rock_small.yy",},
