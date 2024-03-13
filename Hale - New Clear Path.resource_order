@@ -48,6 +48,7 @@
     {"name":"spr_directions","order":22,"path":"sprites/spr_directions/spr_directions.yy",},
     {"name":"spr_player","order":1,"path":"sprites/spr_player/spr_player.yy",},
     {"name":"obj_enemy2","order":1,"path":"objects/obj_enemy2/obj_enemy2.yy",},
+    {"name":"shd_flashRed","order":1,"path":"shaders/shd_flashRed/shd_flashRed.yy",},
     {"name":"obj_buttonParent","order":1,"path":"objects/obj_buttonParent/obj_buttonParent.yy",},
     {"name":"rm_tutorial","order":4,"path":"rooms/rm_tutorial/rm_tutorial.yy",},
     {"name":"rm_menu","order":2,"path":"rooms/rm_menu/rm_menu.yy",},

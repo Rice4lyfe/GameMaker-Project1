@@ -5,3 +5,4 @@ canShoot = true;
 pointingDirection = 0;
 canMelee = true;
 canGetDamage = true;
+shader_is_set = false;
