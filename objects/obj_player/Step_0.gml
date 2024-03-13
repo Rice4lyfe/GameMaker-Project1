@@ -25,7 +25,7 @@ y = clamp(y, camera_get_view_y(view_camera[0]), camera_get_view_y(view_camera[0]
 if (keyboard_check_pressed(vk_backspace)) {//testing player death
 	health -= 1;
 }
-if (keyboard_check_pressed(vk_enter) and instance_exists(obj_miniBoss)) {
+if (keyboard_check_pressed(vk_enter) and instance_exists(obj_boss)) {
 	obj_boss.bossHealth -= 50 //testing killing the boss
 }
 if (keyboard_check_pressed(vk_alt)) {

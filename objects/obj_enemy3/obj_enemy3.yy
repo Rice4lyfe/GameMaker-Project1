@@ -8,9 +8,7 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
   "managed": true,
-  "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_enemy1","path":"objects/obj_enemy1/obj_enemy1.yy",},"propertyId":{"name":"enemy_score","path":"objects/obj_enemy1/obj_enemy1.yy",},"value":"1500",},
-  ],
+  "overriddenProperties": [],
   "parent": {
     "name": "obj_enemy",
     "path": "folders/Objects/obj_enemy.yy",
