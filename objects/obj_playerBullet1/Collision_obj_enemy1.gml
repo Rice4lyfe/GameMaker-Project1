@@ -3,5 +3,6 @@
 instance_create_layer(other.x, other.y, "Instances", obj_explosion1);
 audio_play_sound(snd_explosion1, 1, false)
 instance_destroy(other);
+instance_destroy()
 obj_game.numEnemies -= 1;
 score += other.enemy_score;
