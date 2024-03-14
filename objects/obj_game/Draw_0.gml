@@ -61,4 +61,5 @@ if (outOfTime = true) {
 if (gameOver = true) {
 	draw_set_colour(c_red);
     draw_text_transformed(camera_get_view_x(view_camera[0]) + 100, camera_get_view_y(view_camera[0]) + 300, "GAME OVER", 5, 5, 0)
+	draw_set_colour(c_white);
 }

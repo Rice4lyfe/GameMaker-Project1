@@ -61,6 +61,7 @@
     {"id":{"name":"snd_explosion1","path":"sounds/snd_explosion1/snd_explosion1.yy",},},
     {"id":{"name":"snd_hit","path":"sounds/snd_hit/snd_hit.yy",},},
     {"id":{"name":"obj_miniBoss","path":"objects/obj_miniBoss/obj_miniBoss.yy",},},
+    {"id":{"name":"rm_gameover","path":"rooms/rm_gameover/rm_gameover.yy",},},
     {"id":{"name":"fnt_menu","path":"fonts/fnt_menu/fnt_menu.yy",},},
     {"id":{"name":"obj_buttonMenu","path":"objects/obj_buttonMenu/obj_buttonMenu.yy",},},
     {"id":{"name":"obj_buttonStory","path":"objects/obj_buttonStory/obj_buttonStory.yy",},},
@@ -117,6 +118,7 @@
     {"roomId":{"name":"rm_credits","path":"rooms/rm_credits/rm_credits.yy",},},
     {"roomId":{"name":"rm_tutorial","path":"rooms/rm_tutorial/rm_tutorial.yy",},},
     {"roomId":{"name":"rm_story","path":"rooms/rm_story/rm_story.yy",},},
+    {"roomId":{"name":"rm_gameover","path":"rooms/rm_gameover/rm_gameover.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [

@@ -26,6 +26,8 @@ Explosion by Gumichan01 licensed by CC-BY-SA 4.0: https://opengameart.org/conten
 
 Through space (snd_bgmusic_space) by maxstack licensed CC-BY-SA 3.0: https://opengameart.org/content/through-space
 Menu Selection Click (snd_menu_click) by NenadSimic licensed CC-BY-SA 3.0: https://opengameart.org/content/menu-selection-click
-Picked coin Echo (snd_slowtime) by NenadSimic liesend CC-BY 3.0: https://opengameart.org/content/picked-coin-echo
-
+Picked coin Echo (snd_slowtime) by NenadSimic licensend CC-BY 3.0: https://opengameart.org/content/picked-coin-echo
+player hit (snd_hit) by GreyFrogGames licensed by CC0: https://opengameart.org/content/player-hit-damage
+dull explosion (snd_bullet) by Iwan Gabovitch licensed by CC0: https://opengameart.org/content/dull-explosion
+explosion (snd_explosion1) by Kutejnikov licensed by CC0: https://opengameart.org/content/explosion-8
 
