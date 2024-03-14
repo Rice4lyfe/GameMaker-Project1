@@ -30,11 +30,16 @@ Upon reaching a certain point, the player will encounter a mini-boss and a boss 
 - The boss is similar to the mini-boss and will grant you 200000 ponts upon kill and hitting grants you 500 points. However, it is granted the ability to slow down time and will pump up the amount of bullets being shot.
 	- Notably, it also sends yellow enemies as peons. 
 
-To win the game, the player must either survive long enough to the final boss or kill the final boss.
+To win the game, the player must either survive long enough to the final boss or kill the final boss and reach a score threshold.
 
-For the player to lose, the must lose all 3 lives given.
+For the player to lose, they must lose all 3 lives given or not meet the score threshold.
 
 A score will be represented showing the player's performance.
+
+Having 0 lives is the "worst" ending
+Having a score < 100,000 at the end also gives a "worst" ending
+Having a score between 200,000 and 400,000 gives a decent ending
+Having a score beyond 400,000 gives the best ending
 
 ## Cheat codes
 

@@ -78,6 +78,7 @@
     {"id":{"name":"Path2","path":"paths/Path2/Path2.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_spawnEnemy3","path":"objects/obj_spawnEnemy3/obj_spawnEnemy3.yy",},},
+    {"id":{"name":"obj_gameend","path":"objects/obj_gameend/obj_gameend.yy",},},
     {"id":{"name":"obj_buttonQuit","path":"objects/obj_buttonQuit/obj_buttonQuit.yy",},},
     {"id":{"name":"tileset_ground","path":"tilesets/tileset_ground/tileset_ground.yy",},},
     {"id":{"name":"obj_enemy1","path":"objects/obj_enemy1/obj_enemy1.yy",},},
@@ -93,6 +94,7 @@
     {"id":{"name":"rm_story","path":"rooms/rm_story/rm_story.yy",},},
     {"id":{"name":"spr_rock_big","path":"sprites/spr_rock_big/spr_rock_big.yy",},},
     {"id":{"name":"Path1","path":"paths/Path1/Path1.yy",},},
+    {"id":{"name":"obj_buttonReset","path":"objects/obj_buttonReset/obj_buttonReset.yy",},},
     {"id":{"name":"shd_glow","path":"shaders/shd_glow/shd_glow.yy",},},
     {"id":{"name":"snd_menu_click","path":"sounds/snd_menu_click/snd_menu_click.yy",},},
     {"id":{"name":"obj_PUmoreBullets","path":"objects/obj_PUmoreBullets/obj_PUmoreBullets.yy",},},
@@ -114,11 +116,11 @@
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
+    {"roomId":{"name":"rm_gameover","path":"rooms/rm_gameover/rm_gameover.yy",},},
     {"roomId":{"name":"main","path":"rooms/main/main.yy",},},
     {"roomId":{"name":"rm_credits","path":"rooms/rm_credits/rm_credits.yy",},},
     {"roomId":{"name":"rm_tutorial","path":"rooms/rm_tutorial/rm_tutorial.yy",},},
     {"roomId":{"name":"rm_story","path":"rooms/rm_story/rm_story.yy",},},
-    {"roomId":{"name":"rm_gameover","path":"rooms/rm_gameover/rm_gameover.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [
