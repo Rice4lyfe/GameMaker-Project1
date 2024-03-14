@@ -51,7 +51,6 @@ if (timer = 100) {
 	alarm[0] = 800
 	alarm[5] = 800
 	numEnemies = 0
-	
 }
 
 if (timer = 50) {
