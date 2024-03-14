@@ -54,6 +54,7 @@
     {"name":"rm_tutorial","order":4,"path":"rooms/rm_tutorial/rm_tutorial.yy",},
     {"name":"rm_menu","order":2,"path":"rooms/rm_menu/rm_menu.yy",},
     {"name":"spr_enemy3","order":11,"path":"sprites/spr_enemy3/spr_enemy3.yy",},
+    {"name":"Path2","order":1,"path":"paths/Path2/Path2.yy",},
     {"name":"obj_spawnEnemy3","order":15,"path":"objects/obj_spawnEnemy3/obj_spawnEnemy3.yy",},
     {"name":"spr_space","order":6,"path":"sprites/spr_space/spr_space.yy",},
     {"name":"spr_pressed","order":21,"path":"sprites/spr_pressed/spr_pressed.yy",},

@@ -2,18 +2,19 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_enemy4",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
-  ],
+  "eventList": [],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_enemy5","path":"objects/obj_enemy5/obj_enemy5.yy",},"propertyId":{"name":"attack_range","path":"objects/obj_enemy5/obj_enemy5.yy",},"value":"200",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_enemy5","path":"objects/obj_enemy5/obj_enemy5.yy",},"propertyId":{"name":"fly_path","path":"objects/obj_enemy5/obj_enemy5.yy",},"value":"Path2",},
+  ],
   "parent": {
     "name": "obj_enemy",
     "path": "folders/Objects/obj_enemy.yy",
   },
   "parentObjectId": {
-    "name": "obj_enemy1",
-    "path": "objects/obj_enemy1/obj_enemy1.yy",
+    "name": "obj_enemy5",
+    "path": "objects/obj_enemy5/obj_enemy5.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
