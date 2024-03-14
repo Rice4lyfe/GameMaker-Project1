@@ -7,7 +7,9 @@ obj_player.movementSpeed = 6
 movementSpeed = 4
 obj_player.shotSpeed = 10
 shotSpeed = 5
-obj_miniBossBullet.bulletSpeed = 2
+if (instance_exists(obj_miniBossBullet)){
+	obj_miniBossBullet.bulletSpeed = 2
+}
 if (instance_exists(obj_playerBullet1)) {
 	obj_playerBullet1.bulletSpeed = 10
 }
